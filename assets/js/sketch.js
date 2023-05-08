@@ -5,12 +5,12 @@ document.querySelector('#particles').appendChild(canvas);
 // Define the resize function
 function resize() {
   // Set the canvas size to match the window size
-  canvas.width = window.innerWidth * 0.6;
+  canvas.width = window.innerWidth * 0.4;
   canvas.height = window.innerHeight * 0.2;
 
   // Define the positions of the vertical lines
   const linePositions = [];
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < 11; i++) {
     linePositions.push(50 + i * (canvas.width - 100) / 10);
   }
 
